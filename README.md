@@ -1,7 +1,7 @@
 ## Hi, I'm Abhi 👋
 
 CS student at CU Boulder finishing my B.S. in Computer Science with a minor in Computer Engineering. \
-I've worked on things across a fairly wide range, from FERPA-compliant university infrastructure to bare-metal C on a microcontroller. Most of my projects sit somewhere between those two ends, and they all share the constraint that real people or real hardware are depending on them.
+I've worked on projects across a fairly wide range, from FERPA-compliant university infrastructure to bare-metal C on a microcontroller. Most of my projects sit somewhere between those two ends, and they all share the constraint that real people or real hardware are depending on them.
 
 Open to SWE roles and internships. Reach out via [LinkedIn](https://www.linkedin.com/in/abhinav-chalise-6bb31920b/) or [email](mailto:abhichalise3@gmail.com).
 
