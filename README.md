@@ -1,40 +1,56 @@
-## Hi, I'm Abhi
+# Hi, I'm Abhi
 
-CS grad from CU Boulder (May 2026). I build full-stack production systems and ML infrastructure, from FERPA-compliant platforms to on-device inference tools.
+Computer Science graduate from CU Boulder. I build full-stack production infrastructure and on-device ML systems, from FERPA-compliant platforms serving 1,000+ students to local-inference tools that run without the cloud.
 
 Open to SWE roles. [LinkedIn](https://www.linkedin.com/in/abhinavchalise/) · [Email](mailto:abhichalise3@gmail.com)
 
----
+*Currently building NeuroTune and shipping STM32 Battleship firmware.*
 
-**Education**\
-**University of Colorado Boulder** `May 2026`\
-*B.S. Computer Science · Minor in Computer Engineering*
-
----
-
-**Experience**
+## Experience
 
 **Software Engineer, Practicum · University of Colorado Boulder**
 - Built and deployed a FERPA-compliant course management platform serving 1,000+ students across 45+ courses, with role-based access controls enforcing federal data privacy requirements at the API layer
 - Automated grade verification workflows across four graduate programs, reducing manual processing by 15% per 8-week session
 - Containerized with Docker and shipped through a CI/CD pipeline to university infrastructure
 
----
+## Projects
 
-**Projects**
+**[NeuroTune](https://github.com/Abhi6310/NeuroTune)** `Python · TypeScript · FastAPI · Hugging Face · Next.js`
 
-**[NeuroTune](https://github.com/Abhi6310/NeuroTune)** `Python · React · FastAPI · Hugging Face`
+- Building an on-device focus-music platform where a natural-language intent drives a locally-run LLM that composes binaural-beat session schedules, with zero cloud calls or telemetry
+- Designed the pipeline so a sentence-transformer classifies intent into a session taxonomy and a constrained-decoding LLM emits a schema-validated JSON schedule, backed by a hardcoded fallback that guarantees valid output on any failure
+- Engineered the latency-bound path so every non-LLM stage (classify, retrieve, validate, stream, synthesize) stays under 100ms combined, with a retrieval feedback loop that improves sessions over time
 
-- Built a focus-mode audio platform that modulates pitch, BPM, and audio properties in real time based on learned user behavior, with on-device inference via Hugging Face Transformers at zero per-session API cost
-- Fine-tuned TinyBERT on user session features to classify cognitive state and drive real-time audio modulation decisions
-- Shipped an async FastAPI backend and WebSocket pipeline connecting the React frontend to the inference layer, sustaining sub-100ms end-to-end latency under continuous audio load
+**[AI Mancala](https://github.com/Abhi6310/AI_Mancala)** · [Live Demo](https://abhi6310.github.io/AI_Mancala/) `JavaScript · GitHub Pages`
 
-**[AI Mancala](https://github.com/Abhi6310/AI_Mancala)** `JavaScript · GitHub Pages`
-
-- Deployed a browser-playable Mancala engine with four AI opponents scaling from random play to minimax with alpha-beta pruning at search depth 10, achieving a 99% win rate against a random opponent
-- Reduced node evaluations by 75% at depth 5 via alpha-beta pruning, delivering a 3.8× runtime speedup over pure minimax with sub-80ms move decisions at depth 10 on consumer hardware
+- Deployed a browser-playable Mancala engine with four AI tiers from random play to alpha-beta pruning at depth 10, reaching a 99% win rate against a random opponent over 100 reproducible games
+- Cut node evaluations by 75% at depth 5 with alpha-beta pruning, a 3.8× speedup over plain minimax at identical move quality
 
 **[STM32 Battleship](https://github.com/Abhi6310/STM32_Battleship)** `C · STM32 · LCD · Embedded Firmware`
 
-- Built Battleship in bare-metal C on an STM32 microcontroller with live board rendering on an LCD display and a probabilistic AI opponent
-- Coordinated game logic, display rendering, and input handling on a single processor without OS scheduling, using explicit timing budgets to prevent frame drops and input lag
+- Built Battleship in bare-metal C on an STM32F429 board, with touchscreen ship placement, live LCD board rendering, and a hunt-and-target AI opponent
+- Ran game logic, rendering, and polled input from one cooperative loop with no OS, driving all timing off a 10ms hardware-timer tick instead of blocking delays
+
+<table>
+<tr>
+<td valign="top" width="40%">
+
+## Education
+
+**University of Colorado Boulder** `May 2026`\
+*B.S. Computer Science · Minor in Computer Engineering*
+
+</td>
+<td valign="top" width="60%">
+
+## Skills
+
+- **Languages** Python · TypeScript · JavaScript · C
+- **Backend** FastAPI · SQLAlchemy · WebSocket · Docker · CI/CD
+- **ML** PyTorch · Hugging Face Transformers
+- **Frontend** React · Next.js · Redux Toolkit
+- **Embedded** STM32 · bare-metal firmware
+
+</td>
+</tr>
+</table>
