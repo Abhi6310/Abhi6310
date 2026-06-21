@@ -1,6 +1,6 @@
 # Hi, I'm Abhi
 
-Computer Science graduate from CU Boulder. I build full-stack production infrastructure and on-device ML systems, from FERPA-compliant platforms serving 1,000+ students to local-inference tools that run without the cloud.
+Computer Science graduate from CU Boulder. I like building software end to end, from full-stack web apps to on-device ML and bare-metal firmware.
 
 Open to SWE roles. [LinkedIn](https://www.linkedin.com/in/abhinavchalise/) · [Email](mailto:abhichalise3@gmail.com)
 
