@@ -4,15 +4,6 @@ Computer Science graduate from CU Boulder. I like building software end to end, 
 
 Open to SWE roles. [LinkedIn](https://www.linkedin.com/in/abhinavchalise/) · [Email](mailto:abhichalise3@gmail.com)
 
-*Currently building SCORE*
-
-## Experience
-
-**Software Engineer, Practicum · University of Colorado Boulder** `Next.js · React · Python · MySQL · Docker`
-- Built and deployed an internal grading and course-operations platform for facilitators in CU Boulder's online MS-CS, cutting manual grade processing 15% per 8-week session across 45+ courses and four graduate programs, turning a 15-20 minute manual grade-verification check per class into one click
-- Engineered a grade-ingestion pipeline processing 1,000+ student records per cycle, validating course-data exports against live JSON samples to handle schema variation across programs
-- Enforced FERPA-compliant role-based access control at the API layer and shipped the stack to university infrastructure via Docker and a CI/CD pipeline
-
 ## Projects
 
 **[SCORE](https://github.com/Abhi6310/SCORE)** `Python · TypeScript · FastAPI · Hugging Face · Next.js · Tone.js`
