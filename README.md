@@ -17,6 +17,10 @@ Open to SWE roles. [LinkedIn](https://www.linkedin.com/in/abhinavchalise/) · [E
 - Deployed a browser-playable Mancala engine with four AI tiers from random play to alpha-beta pruning at depth 10, reaching a 99% win rate against a random opponent over 100 reproducible games
 - Cut node evaluations by 75% at depth 5 with alpha-beta pruning, a 3.8× speedup over plain minimax at identical move quality
 
+**[IMDB Database CLI Tool](https://github.com/Abhi6310/STM32_Battleship)** `C++`
+
+- Interactive database CLI tool for IMDB movie records with custom data parsing logic and multiple data structures balanced for performance
+
 **[STM32 Battleship](https://github.com/Abhi6310/STM32_Battleship)** `C · STM32 · LCD · Embedded Firmware`
 
 - Built Battleship in bare-metal C on an STM32F429 board, with touchscreen ship placement, live LCD board rendering, and a hunt-and-target AI opponent
@@ -36,8 +40,8 @@ Open to SWE roles. [LinkedIn](https://www.linkedin.com/in/abhinavchalise/) · [E
 
 ## Skills
 
-- **Languages** Python · TypeScript · JavaScript · C
-- **Backend** FastAPI · SQLAlchemy · WebSocket · Docker · CI/CD
+- **Languages** Python · TypeScript · JavaScript · C · C++
+- **Backend** FastAPI · Flask · MySQL · WebSockets · Docker · OAuth · Github CI/CD
 - **ML** PyTorch · Hugging Face Transformers
 - **Frontend** React · Next.js · Redux Toolkit
 - **Embedded** STM32 · bare-metal firmware
